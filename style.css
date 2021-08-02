@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("Pictures/BACKGROUND.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.icon{
+    cursor: pointer;
+    margin-left: 80px;
+}
+
+nav{
+    flex:1;
+    text-align: right;
+}
+
+nav ul li a:hover{
+    color: blue;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.row{
+    height: 88%;
+    display: flex;
+    align-items: center;
+}
+
+.col h1{
+    color: white;
+    font-size: 50px;
+}
+
+.col p{
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+
+}
+
+.col{
+    flex-basis: 50%;
+
+}
+
+button{
+    width: 200px;
+    color: white;
+    font-size: 15px;
+    padding: 15px 0;
+    background-color: black;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+button:hover{
+    color: blue;
+}
+
+
+.card{
+    flex-wrap: wrap;
+    width: 250px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url("Pictures/CHEST.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 20px;
+    transition: transform 0.5;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+.card1{
+    background-image: url("Pictures/CHEST.jpg");
+}
+
+.card2{
+    background-image: url("Pictures/BACK.jpg");
+}
+
+.card3{
+    background-image: url("Pictures/LEGS.jpg");
+}
+
+.card4{
+    background-image: url("Pictures/CORE.jpg");
+}
+
+
+h5{
+    text-shadow: 0 0 5px blue;
+    font-size: large;
+}
